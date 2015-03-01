@@ -62,13 +62,13 @@ I started with my space game, that is a turn-based game.
 
 # Different kind of need
 
- * 1. (small-lan) Play with some friends at home (without Internet required) : broadcast, no security (game without password), no closed game needed.
+ 1. (Small-LAN) Play with some friends at home (without Internet required) : broadcast, no security (game without password), no closed game needed.
 
- * 2. (hude-lan) Play with people on LAN-Party : almost like 1 but you need limited game (open/close/kick/ban feature), with or without broadcast, with or without password.
+ 2. (Hude-LAN) Play with people on LAN-Party : almost like 1 but you need limited game (open/close/kick/ban feature), with or without broadcast, with or without password.
 
- * 3. (private-net) Play only with friends but over Internet : broadcast are not supported, password or authentication is higtly recommended, transmission probably need encryption (TLS).
+ 3. (Private-Net) Play only with friends but over Internet : broadcast are not supported, password or authentication is higtly recommended, transmission probably need encryption (TLS).
 
- * 4. (public-net) Play with any one over Internet : same than 3 but worst, you need also feature to kick/ban unwanted client (due to insult, flood, ...)
+ 4. (Public-Net) Play with any one over Internet : same than 3 but worst, you need also feature to kick/ban unwanted client (due to insult, flood, ...)
 
 
 
