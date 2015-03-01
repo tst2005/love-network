@@ -11,7 +11,7 @@ Of course I understand why : Lot of people are afraid by network consideration. 
 
 See: [network protocols](http://sebsauvage.net/comprendre/tcpip/protocols.pdf).
 
-I dreams to provide an easiest way to share game's data than all game's author should transform their game from solo to multi players.
+I dream to provide an easier way to share game's data that all game's author should transform their game from solo to multi players.
 
 ## Why network is so hard ?
 
@@ -19,8 +19,8 @@ You need to consider :
  * Bandwidth
  * Latency
  * Case of failure (how to return to a usual state)
- * Security (who are allow to read or write what)
- * Attack surface (you should be attack by virus/spammers/... and more from Internet even if you service is for a game)
+ * Security (who are allowed to read or write what)
+ * Attack surface (you will be attacked by virus/spammers/... and more from Internet even if you service is for a game)
  * ...
 
 # Current solution
@@ -30,7 +30,7 @@ I found :
  * barbes make the [LUBE](https://love2d.org/wiki/LUBE) library that helps to use socket or enet.
  * nothing more?
 
-I think LUBE is a good base for make their own "LAN protocol". But both are low level protocol.
+I think LUBE is a good base to make your custom LAN protocol. But both are low level protocol, not so easy to use.
 
 It should be enough to share data over LAN network, because 
  * a big bandwidth (usualy 100M/1000M bps, even 10M bps is often enough) with small latency
@@ -43,8 +43,8 @@ Lot of Game's Author, are bored to think about protocol.
 ## 1st step
 
 My first step :
- * The client will be run with LÖVE or standalone Lua.
- * The server will be run with nginx+Lua. See [Openresty](http://openresty.org/).
+ * The client will run with LÖVE or standalone Lua. See [Technical details](https://github.com/tst2005/love-network/blob/master/client.md).
+ * The server will run with nginx+Lua. See [Openresty](http://openresty.org/). See [Technical details](https://github.com/tst2005/love-network/blob/master/server.md).
  * Data will be shared over a RESTfull API with the [Lusty a Web Framework](https://github.com/Olivine-Labs/lusty).
 
 ### why using a web server ?
@@ -64,7 +64,7 @@ I started with my space game, that is a turn-based game.
 
  1. (Small-LAN) Play with some friends at home (without Internet required) : broadcast, no security (game without password), no closed game needed.
 
- 2. (Hude-LAN) Play with people on LAN-Party : almost like 1 but you need limited game (open/close/kick/ban feature), with or without broadcast, with or without password.
+ 2. (Huge-LAN) Play with people on LAN-Party : almost like 1 but you need limited game (open/close/kick/ban features), with or without broadcast, with or without password.
 
  3. (Private-Net) Play only with friends but over Internet : broadcast are not supported, password or authentication is higtly recommended, transmission probably need encryption (TLS).
 

@@ -7,14 +7,14 @@ I have 2 choices :
  * Take [NGINX](http://nginx.org/) + [ngx_devel_kit+lua-nginx-module](http://wiki.nginx.org/HttpLuaModule#Installation) to got the Lua support.
  * Take [OpenResty](http://openresty.org/) that pack all required patch (and disable all modules what I don't need).
 
-I choose the second way (because I planned to need more than only the Lua support).
+I chose the second way (because I planned to need more than only the Lua support).
 See my "download-extract-compile-install script" : https://github.com/tst2005/resty-auto-compil/
 
-I choose to use luajit for performance consideration.
+I chose to use luajit for performance consideration.
 
 # Web Service
 
-I choose to try the [lusty web framework](https://github.com/Olivine-Labs/lusty/).
+I chose to try the [lusty web framework](https://github.com/Olivine-Labs/lusty/).
 
 
 # Protocol
