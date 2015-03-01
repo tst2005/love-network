@@ -9,7 +9,7 @@ But I'm also so sad to see most of them are without multiplayer mode.
 
 Of course I understand why : Lot of people are afraid by network consideration. They are right!
 
-See: [network protocols](url=http://sebsauvage.net/comprendre/tcpip/protocols.pdf).
+See: [network protocols](http://sebsauvage.net/comprendre/tcpip/protocols.pdf).
 
 I dreams to provide an easiest way to share game's data than all game's author should transform their game from solo to multi players.
 
