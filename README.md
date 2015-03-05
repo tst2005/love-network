@@ -60,7 +60,7 @@ I think web server have exactly the same needs.
 I started with my space game, that is a turn-based game.
 
 
-# Different kind of need
+# Different kind of network
 
  1. (Small-LAN) Play with some friends at home (without Internet required) : broadcast, no security (game without password), no closed game needed.
 
@@ -69,6 +69,19 @@ I started with my space game, that is a turn-based game.
  3. (Private-Net) Play only with friends but over Internet : broadcast are not supported, password or authentication is higtly recommended, transmission probably need encryption (TLS).
 
  4. (Public-Net) Play with any one over Internet : same than 3 but worst, you need also feature to kick/ban unwanted client (due to insult, flood, ...)
+
+
+# Different kind of data managment
+
+ A. (FPS-like)
+
+If the game needs very fast refresh of data then you need a permenent connexion between the client and the server.
+Working on cached data on the client is not mandatory. The client are able to directly push the action to the server.
+
+ B. (Turn-like)
+
+If your game is slow, It should be good to cache/save data on the client side to be able to restore/resync data between client and server after a disconnection.
+
 
 
 
@@ -80,4 +93,8 @@ You need Internet almost all the time.
 Case 1 and 2 without Internet seems denied.
 Case 3 and 4 seems ok.
 
+## Technical details (from Valves/Steam)
+
+* About network : https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
+* About server/client implementation : https://developer.valvesoftware.com/wiki/Networking_Entities
 
