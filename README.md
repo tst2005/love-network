@@ -97,4 +97,7 @@ Case 3 and 4 seems ok.
 
 * About network : https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
 * About server/client implementation : https://developer.valvesoftware.com/wiki/Networking_Entities
+* http://www.gabrielgambetta.com/fast_paced_multiplayer.html
+* https://developer.valvesoftware.com/wiki/Latency_Compensating_Methods_in_Client/Server_In-game_Protocol_Design_and_Optimization
+* https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
 
