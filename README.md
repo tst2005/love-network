@@ -93,11 +93,12 @@ You need Internet almost all the time.
 Case 1 and 2 without Internet seems denied.
 Case 3 and 4 seems ok.
 
-## Technical details (from Valves/Steam)
+## Technical details
 
-* About network : https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
-* About server/client implementation : https://developer.valvesoftware.com/wiki/Networking_Entities
+* from Valves/Steam : About network : https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
+* from Valves/Steam: About server/client implementation : https://developer.valvesoftware.com/wiki/Networking_Entities
 * http://www.gabrielgambetta.com/fast_paced_multiplayer.html
-* https://developer.valvesoftware.com/wiki/Latency_Compensating_Methods_in_Client/Server_In-game_Protocol_Design_and_Optimization
+* https://developer.valvesoftware.com/wiki/Latency_Compensating_Methods_in_Client/Server_In-game_Protocol_Design_and_Optimization\
 * https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
+* from Unity : http://docs.unity3d.com/Manual/UNetUsingHLAPI.html ; https://bitbucket.org/Unity-Technologies/networking ; http://blogs.unity3d.com/2015/11/19/high-level-multiplayer-networking-layer-has-been-open-sourced/
 
