@@ -13,6 +13,8 @@ See: [network protocols](http://sebsauvage.net/comprendre/tcpip/protocols.pdf).
 
 I dream to provide an easier way to share game's data that all game's author should transform their game from solo to multi players.
 
+See also this good article : [is-it-just-me-or-is-networking-really-hard](http://gafferongames.com/2015/09/12/is-it-just-me-or-is-networking-really-hard/)
+
 ## Why network is so hard ?
 
 You need to consider :
